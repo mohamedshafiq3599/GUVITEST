@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+	
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="contact-box">
+			<div class="left"></div>
+			<div class="right">
+		<h2>Register</h2>
+		<br>
+		<br>
+		<br>
+		<form>
+			<div class="form-group">
+				<label for="email">Email address</label>
+				<input type="email" class="form-control" id="email" name="email" required>
+			</div><br>
+			<br>
+			<br>
+			<div class="form-group">
+				<label for="password">Password</label>
+				<input type="password" class="form-control" id="password" name="password" required>
+			</div>
+			<br>
+		<br>
+		<br>
+			<div class="form-group">
+				<label for="firstname">First Name</label>
+				<input type="text" class="form-control" id="firstname" name="firstname" required>
+			</div><br>
+			<br>
+			<br>
+			<div class="form-group">
+				<label for="lastname">LastName</label>
+				<input type="text" class="form-control" id="lastname" name="lastname" required>
+			</div><br>
+			<br>
+			<br>
+			<div class="form-group">
+				<label for="phoneno">PhoneNumber</label>
+				<input type="text" class="form-control" id="phoneno" name="phoneno" required>
+			</div><br>
+			<br>
+			<br>
+			<div class="form-group">
+				<label for="address">Address</label>
+				<input type="text" class="form-control" id="address" name="address" required>
+			</div><br>
+			<br>
+			<br>
+			<button type="button" id="button" class="btn btn-primary" >Signup</button>
+		</form>
+		<div id="response"></div>
+	</div>
+
+	<script type="text/javascript" src="register.js"></script>
+</body>
+</html>
